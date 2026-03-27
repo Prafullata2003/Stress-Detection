@@ -1,0 +1,63 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        body{
+            /* background-color: blueviolet; */
+            /* color: aliceblue; */
+        }
+        .img-fluid{
+            border: 1px solid;
+            border: radius 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="margin-top: 15px; margin-bottom: 30px;"><b>Stress Detection System</b></h1>
+
+    <div class="container my-2">
+  
+
+    <p>
+        stress has become an increasingly common challenge, affecting individuals across all walks of life. The Stress Detection System is designed to identify and monitor stress levels in real-time, providing actionable insights to help individuals manage their mental well-being effectively.
+    </p>
+    <strong style="text-align: center; display: block; font-size: 24px; margin-top: 10px; margin-bottom: 10px;">Our Mission</strong>
+    <p>Our mission is to harness the power of technology to promote mental health and well-being. By developing a comprehensive and user-friendly system, we aim to empower individuals to better understand their stress patterns and take proactive steps towards a healthier lifestyle.</p>
+    <strong style="text-align: center; display: block; font-size: 24px; margin-top: 10px; margin-bottom: 10px;"> Why It Matters</strong>
+    
+    <p>
+        The Stress Detection System leverages advanced machine learning algorithms and cutting-edge sensor technology to detect stress levels accurately. The system collects physiological data (such as heart rate and skin conductance) and behavioral data (such as facial expressions and voice tone) through wearables and smart devices. This data is then processed in real-time to assess the user’s current stress level, providing instant feedback through a user-friendly interface </p>
+        <p>
+            Stress, if left unmanaged, can lead to a variety of health issues, including anxiety, depression, and cardiovascular diseases. By providing early detection and continuous monitoring, the Stress Detection System helps users to recognize stress triggers and take timely action, thus improving their overall well-being.
+        </p>
+        <div class="row">
+            <div class="col-6">
+            <img src="{% static 'images/vfr.png' %}" alt="image" class="img-fluid" style="width: 110%; height: 100%;"></div>
+            <div class="col-6">
+                <p>
+
+A stress detection system is a tool designed to monitor and assess an individual's stress levels using various indicators such as physiological signals, behavioral patterns, or emotional responses. These systems can be built using different technologies, including machine learning, computer vision, or sensor-based methods.
+                </p>
+                <b>
+                    Technologies Used:
+
+                </b>
+                <b>Machine Learning:</b><p> To classify stress levels based on historical and real-time data.</p>
+                <b>Computer Vision:</b><p>To analyze facial expressions or body language.</p>
+                <b>Natural Language Processing (NLP):</b><p>To assess stress from speech patterns.</p>
+            </div>
+        </div>
+        
+      
+    </div>
+</body>
+</html>
